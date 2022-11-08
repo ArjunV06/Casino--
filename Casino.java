@@ -8,7 +8,9 @@ public class Casino
     public static void main(String[] args) throws IOException
     {
         Die test = new Die();
-        for(int i = 0; i<100; i++)
+        GamblerTester tester = new GamblerTester();
+        tester.test();
+        /*for(int i = 0; i<100; i++)
         {
 
         
@@ -20,6 +22,8 @@ public class Casino
         test.changeSides((int)(Math.random()*10000)+1);
         
         System.out.println("\n");
-        }
+        }*/
+
+
     }
 }
