@@ -1,9 +1,9 @@
 import java.util.*;
 public class GamblerTester {
 
-    Gambler one;
-    Gambler two;
-    ArrayList<Gambler> peeps = new ArrayList<Gambler>();
+    private Gambler one;
+    private Gambler two;
+    private ArrayList<Gambler> peeps = new ArrayList<Gambler>();
     public GamblerTester()
     {
         one = new Gambler("Walter");
